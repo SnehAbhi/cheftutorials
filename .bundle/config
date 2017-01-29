@@ -1,0 +1,4 @@
+---
+BUNDLE_WITHOUT: changelog:development:docgen:guard:integration:maintenance:tools:travis:style:bsd:solaris:aix:windows:mac_os_x
+BUNDLE_FROZEN: '1'
+BUNDLE_BUILD__NOKOGIRI: --use-system-libraries --with-xml2-lib=/opt/chef/embedded/lib --with-xml2-include=/opt/chef/embedded/include/libxml2 --with-xslt-lib=/opt/chef/embedded/lib --with-xslt-include=/opt/chef/embedded/include/libxslt --with-iconv-dir=/opt/chef/embedded --with-zlib-dir=/opt/chef/embedded
